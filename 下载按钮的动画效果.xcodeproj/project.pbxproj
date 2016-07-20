@@ -15,6 +15,9 @@
 		1660C0BA1D3F5137000BAE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1660C0B81D3F5137000BAE8F /* LaunchScreen.storyboard */; };
 		1660C0C51D3F5137000BAE8F /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0C41D3F5137000BAE8F /* _________Tests.m */; };
 		1660C0D01D3F5137000BAE8F /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0CF1D3F5137000BAE8F /* _________UITests.m */; };
+		1660C0E01D3F5177000BAE8F /* ADDownloaderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0DF1D3F5177000BAE8F /* ADDownloaderButton.m */; };
+		1660C0E31D3F51E3000BAE8F /* ADDownloaderButtonProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0E21D3F51E3000BAE8F /* ADDownloaderButtonProgressView.m */; };
+		1660C0E61D3F579B000BAE8F /* ADDownloadMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0E51D3F579B000BAE8F /* ADDownloadMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		1660C0CB1D3F5137000BAE8F /* 下载按钮的动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下载按钮的动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1660C0CF1D3F5137000BAE8F /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		1660C0D11D3F5137000BAE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1660C0DE1D3F5177000BAE8F /* ADDownloaderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDownloaderButton.h; sourceTree = "<group>"; };
+		1660C0DF1D3F5177000BAE8F /* ADDownloaderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDownloaderButton.m; sourceTree = "<group>"; };
+		1660C0E11D3F51E3000BAE8F /* ADDownloaderButtonProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDownloaderButtonProgressView.h; sourceTree = "<group>"; };
+		1660C0E21D3F51E3000BAE8F /* ADDownloaderButtonProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDownloaderButtonProgressView.m; sourceTree = "<group>"; };
+		1660C0E41D3F579B000BAE8F /* ADDownloadMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDownloadMath.h; sourceTree = "<group>"; };
+		1660C0E51D3F579B000BAE8F /* ADDownloadMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDownloadMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		1660C0A91D3F5137000BAE8F /* 下载按钮的动画效果 */ = {
 			isa = PBXGroup;
 			children = (
+				1660C0DD1D3F5162000BAE8F /* ADDownloaderButton */,
 				1660C0AD1D3F5137000BAE8F /* AppDelegate.h */,
 				1660C0AE1D3F5137000BAE8F /* AppDelegate.m */,
 				1660C0B01D3F5137000BAE8F /* ViewController.h */,
@@ -138,6 +148,19 @@
 				1660C0D11D3F5137000BAE8F /* Info.plist */,
 			);
 			path = "下载按钮的动画效果UITests";
+			sourceTree = "<group>";
+		};
+		1660C0DD1D3F5162000BAE8F /* ADDownloaderButton */ = {
+			isa = PBXGroup;
+			children = (
+				1660C0DE1D3F5177000BAE8F /* ADDownloaderButton.h */,
+				1660C0DF1D3F5177000BAE8F /* ADDownloaderButton.m */,
+				1660C0E11D3F51E3000BAE8F /* ADDownloaderButtonProgressView.h */,
+				1660C0E21D3F51E3000BAE8F /* ADDownloaderButtonProgressView.m */,
+				1660C0E41D3F579B000BAE8F /* ADDownloadMath.h */,
+				1660C0E51D3F579B000BAE8F /* ADDownloadMath.m */,
+			);
+			path = ADDownloaderButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +299,9 @@
 				1660C0B21D3F5137000BAE8F /* ViewController.m in Sources */,
 				1660C0AF1D3F5137000BAE8F /* AppDelegate.m in Sources */,
 				1660C0AC1D3F5137000BAE8F /* main.m in Sources */,
+				1660C0E31D3F51E3000BAE8F /* ADDownloaderButtonProgressView.m in Sources */,
+				1660C0E61D3F579B000BAE8F /* ADDownloadMath.m in Sources */,
+				1660C0E01D3F5177000BAE8F /* ADDownloaderButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
